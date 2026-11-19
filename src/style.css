@@ -1,3 +1,16 @@
 @import "tailwindcss";
 
 @config "../tailwind.config.js";
+
+.Moveimg{
+    animation:10s infinite linear movehelper;
+}
+
+@keyframes movehelper {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -50%;
+  }
+}
